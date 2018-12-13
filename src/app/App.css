@@ -1,0 +1,54 @@
+.App{
+    background-color: #f12;
+    margin:0px;
+    padding:opx;
+  }
+  .table{
+    width: 100%;
+    border: none;
+  }
+  .cell-td{    
+  color: #333366;;
+  padding: 0 0.75rem;
+  vertical-align: top;
+  }
+  .row-tr{    
+  border: solid thin #333366;
+  padding: 0px;  
+  background-color: #EDEDED';
+  }
+  .header-row-tr{ 
+  border: solid thin #333366;
+  background-color: '#D8D8D8';
+  padding: 0px;
+  }
+  .main-button{  
+    margin-right: 1em;
+    width: 10rem;
+    background-color: #333366;
+    color:#FFFFFF;
+    font-size:20px;
+    border: none;
+  }
+  .main-logo{    
+    height: 20px;
+    float: left;
+    margin-top:12px;    
+    margin-left: -2px;
+  }
+  .main-link{
+    color: black;
+  text-align : left;
+  float:left;
+  font-style: italic;
+  font-size: 30px;
+  padding: 0rem;
+  text-decoration: none;
+  &:focus, &:hover, &:visited, &:link, &:active {
+    text-decoration: none;
+}
+  }
+  .download{
+    float: right;
+  }
+  
